@@ -1,0 +1,146 @@
+
+[
+	{
+		"id": 5,
+		"title": "Senior E2E Network Analyst",
+		"type": "Full Time",
+		"company": "Vodafone GmbH",
+		"location": "Düsseldorf, Germany",
+		"department": "Network Planning",
+		"start_date": "01-03-2022",
+		"end_date": "",
+		"description": [
+			{
+				"language": "en",
+				"content": [
+					"Creation and continuous development of a universal dataset, containing data from several sectors, such as, customer, competitors, geofootprint, among others, which is used by several departments for a variety of models, distinctively Fiber Allocation Project. This project, which I am very active on aims to optimally maximize the fiber-connected households using shortest path algorithms on geographic data from the universal dataset.",
+					"In charge of migrating important algorithms and pipelines to Google Cloud Platform, creating full E2E pipelines from data gathering, data processing, modelling and visualization, while taking full advantage of scalable capabilities of Google Cloud.",
+					"Fully adapted and optimized on-premise code in a object oriented way, making it easier for collective development within Google Cloud Platform."
+				]
+			},
+			{
+				"language": "pt",
+				"content": ""
+			},
+			{
+				"language": "de",
+				"content": ""
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Data Scientist",
+		"type": "Full Time",
+		"company": "Vodafone GmbH",
+		"location": "Düsseldorf, Germany",
+		"department": "Network Planning",
+		"start_date": "01-04-2020",
+		"end_date": "01-02-2022",
+		"description": [
+			{
+				"language": "en",
+				"content": [
+					"<i>Matrix Project</i>: The idea was to optimise and enable flexibility on the calculation of the network coverage in Germany. Since only one employee had the skillset to do this calculation on-premise, I migrated it to Google Cloud Platform in table format, which not only allowed for higher visibility among other employees but also drastically decrease the computation times from ~10h to ~30min and opened the way to ”what if?” analysis, e.g. how does the coverage look like if we turn on one specific cell tower?.",
+					"Optimized Fiber Node Recommendation Algorithm by using Graph techniques, which reduced computation times from 8h to 5min.",
+					"Optimized on-premise geographical processing, such as connecting points to streets and creation of double-sided streets by migrating this task to Google Cloud Platform and using scalable native PostGIS functions. This decreased computation times from 2h to 5min and freed on-premise resources for other essential tasks.",
+					"Pioneered GitHub in my department and encouraged the creation of a python module for useful team functions (e.g. reading data from specific servers, converting data and other ETL pipelines) which increased efficiency.",
+					"Created clustering model to identify saturated cell towers, which provided a better management of cell tower activity and possible new site constructions.",
+					"Educated neighbour teams and departments on several subjects, such as, scalable geoprocessing, graph analytics, google cloud best practices, etc."
+				]
+			},
+			{
+				"language": "pt",
+				"content": ""
+			},
+			{
+				"language": "de",
+				"content": ""
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Big Data and Data Science Trainee",
+		"type": "Full Time (Trainee)",
+		"company": "Vodafone GmbH",
+		"location": "Düsseldorf, Germany",
+		"department": "Network Planning",
+		"start_date": "01-10-2018",
+		"end_date": "01-04-2020",
+		"description": [
+			{
+				"language": "en",
+				"content": [
+					"The Vodafone Graduate Program is a globally top talent accelerated that allows graduates to spend time in several different departments of a multinational telecommunications corporation. During this time I:",
+					"Created the “Metadata Management Initiative” using Cloudera to help users having easier access to metadata information about data in the Big Data Platform.",
+					"Supported in Data Engineering tasks, such as developing scalable ETL Pipelines with Apache Spark, and Data Feed Management.",
+					"Optimized current Retail Revenue Model to include footfall and statistics of customers inside and passing in front of shops by using CrowdSourcing data, which lead to an increase in the model’s accuracy.",
+					"Lead own project on Drivetest Reconstruction using telecommunication Crowdsourcing data. By using own this data to identify possible telecom no- coverage zones, the company saved thousands of euros in manual data gathering and CO2 emissions. Furthermore, it provided an additional quality assurance since there was more data to derive whether a specific zone had coverage or not."
+				]
+			},
+			{
+				"language": "pt",
+				"content": ""
+			},
+			{
+				"language": "de",
+				"content": ""
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Data Analytics & AI Intern",
+		"type": "Intership",
+		"company": "Energias de Portugal",
+		"location": "Lisbon, Portugal",
+		"department": "Advanced Analytics",
+		"start_date": "01-02-2018",
+		"end_date": "01-07-2018",
+		"description": [
+			{
+				"language": "en",
+				"content": [
+					"Implemented a search-base monitoring platform to track down the origin of scalable failures and crashes using machine logs.",
+					"Developed machine learning anomaly detection algorithm that was able to predict eventual failures and crashes using machine logs, which, in turn, lead to an increase in productivity and customer satisfaction."
+				]
+			},
+			{
+				"language": "pt",
+				"content": ""
+			},
+			{
+				"language": "de",
+				"content": ""
+			}
+		]
+	},
+	{
+		"id": 1,
+		"title": "Machine Learning Research Intern",
+		"type": "Intership",
+		"company": "INESC-ID",
+		"location": "Lisbon, Portugal",
+		"department": "Speech AI",
+		"start_date": "01-02-2017",
+		"end_date": "01-01-2018",
+		"description": [
+			{
+				"language": "en",
+				"content": [
+					"Implemented a search-base monitoring platform to track down the origin of scalable failures and crashes using machine logs.",
+					"Developed machine learning anomaly detection algorithm that was able to predict eventual failures and crashes using machine logs, which, in turn, lead to an increase in productivity and customer satisfaction."
+				]
+			},
+			{
+				"language": "pt",
+				"content": ""
+			},
+			{
+				"language": "de",
+				"content": ""
+			}
+		]
+	}
+]

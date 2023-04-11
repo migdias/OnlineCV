@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,16 +20,31 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { AboutComponent } from './components/about/about.component';
+import { ExperienceComponent } from './components/experience/experience/experience.component';
+import { EducationComponent } from './components/education/education.component';
+import { CertificatesPublicationsComponent } from './components/certificates-publications/certificates-publications.component';
+import { AwardsComponent } from './components/awards/awards.component';
+import { ExperienceListComponent } from './components/experience/experience-list/experience-list.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutComponent,
+    ExperienceComponent,
+    EducationComponent,
+    CertificatesPublicationsComponent,
+    AwardsComponent,
+    ExperienceListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     MdbAccordionModule,
     MdbCarouselModule,
     MdbCheckboxModule,
@@ -44,7 +60,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

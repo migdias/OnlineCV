@@ -1,0 +1,80 @@
+{
+	"description": [
+		{
+			"language": "en",
+			"content": "Very curious, business-minded Data Scientist with +5 years experience in collecting, analysing and interpreting large datasets, both in a research and corporate environment. Highly skilled in processing corporate raw data, including geographical, telecom and customer data as well as developing a wide range of machine learning models to answer complex business questions and increase productivity and efficiency. These include, but are not limited to, SVMs, gradient boosting algorithms, deep learning, RNNs and LSTMs, CNN, forecasting and clustering techniques. Experienced in both geographical and tabular data processing at scale in Google Cloud Platform."
+		},
+		{
+			"language": "pt",
+			"content": "teste em portugues"
+		},
+		{
+			"language": "de",
+			"content": "test in deutsch"
+		}
+	],
+	"personal": [
+		{
+			"icon": "earth-americas",
+			"type": "fas",
+			"content": "Lisbon, Portugal"
+		},
+		{
+			"icon": "location-dot",
+			"type": "fas",
+			"content": "Düsseldorf, Germany"
+		},
+		{
+			"icon": "phone",
+			"type": "fas",
+			"content": "+49 152 26852706"
+		},
+		{
+			"icon": "envelope",
+			"type": "fas",
+			"content": "miguel.a.r.diass@gmail.com"
+		},
+		{
+			"icon": "linkedin",
+			"type": "fab",
+			"content": "www.linkedin.com/in/m-dias"
+		}
+	],
+	"interests": [
+		{
+			"icon": "person-hiking",
+			"type": "fas",
+			"content": "Hiking"
+		},
+		{
+			"icon": "plane-departure",
+			"type": "fas",
+			"content": "Travelling"
+		},
+		{
+			"icon": "guitar",
+			"type": "fas",
+			"content": "Music"
+		},
+		{
+			"icon": "dumbbell",
+			"type": "fas",
+			"content": "Exercise"
+		},
+		{
+			"icon": "book",
+			"type": "fas",
+			"content": "Reading"
+		},
+		{
+			"icon": "film",
+			"type": "fas",
+			"content": "Movies & TV"
+		},
+		{
+			"icon": "laptop-code",
+			"type": "fas",
+			"content": "Artificial Intelligence"
+		}
+	]
+}
