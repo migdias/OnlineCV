@@ -1,31 +1,33 @@
-<div class="outer-container">
-    <div class="left-section">
-        <h3>About Me</h3>
-        <h5>Miguel Dias</h5>
-        <p>28 Years Old</p>
-        <p [innerHTML]="description"></p>
-        <div>
-            <h4>Interests</h4>
-            <div class="interests-container">
-                <div *ngFor="let interest of interestList">
-                    <div [mdbTooltip]="interest.content" container="body">
-                        <fa-icon class="interest-icon" [icon]="[interest.type, interest.icon]"></fa-icon>
+<section id="about">
+    <div class="outer-container">
+        <div class="left-section">
+            <h3>About Me</h3>
+            <h5>Miguel Dias</h5>
+            <h6>28 Years Old</h6>
+            <p [innerHTML]="description"></p>
+            <div>
+                <h4>Interests</h4>
+                <div class="interests-container">
+                    <div *ngFor="let interest of interestList">
+                        <div [mdbTooltip]="interest.content" container="body">
+                            <fa-icon [icon]="[interest.type, interest.icon]"></fa-icon>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="right-section">
-        <img src="assets/content/profile_pic.jpg" class="profile-picture">
-        <div class="profile-links">
-            <a href="https://github.com/migdias" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/m-dias" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <div class="right-section">
+            <img src="assets/content/profile_pic.jpg">
+            <div class="profile-links">
+                <a href="https://github.com/migdias" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/m-dias" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
         </div>
     </div>
-</div>
-    <hr>
+        <hr>
 
-    <!-- <div class="container" *ngFor="let personal of personalList">
-        <fa-icon class="icon-container icon" [icon]="[personal.type, personal.icon]"></fa-icon>
-        <div class="text-container">{{ personal.content }}</div>
-    </div> -->
+        <!-- <div class="container" *ngFor="let personal of personalList">
+            <fa-icon class="icon-container icon" [icon]="[personal.type, personal.icon]"></fa-icon>
+            <div class="text-container">{{ personal.content }}</div>
+        </div> -->
+</section>
